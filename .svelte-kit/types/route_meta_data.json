@@ -1,0 +1,11 @@
+{
+	"/": [],
+	"/a-propos": [],
+	"/contact": [],
+	"/galerie": [],
+	"/galerie/[index]": [],
+	"/recettes": [],
+	"/recettes/[slug]": [
+		"src/routes/recettes/[slug]/+page.ts"
+	]
+}

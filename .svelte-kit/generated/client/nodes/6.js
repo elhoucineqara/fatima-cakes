@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/galerie/[index]/+page.svelte";
