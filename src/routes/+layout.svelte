@@ -55,7 +55,27 @@
 
 <svelte:head>
 	<title>Fatima Cakes | Recettes de Gâteaux</title>
-	<meta name="description" content="Découvrez mes recettes de gâteaux, cupcakes et pâtisseries faites maison" />
+	<meta name="description" content="Découvrez mes recettes de gâteaux, cupcakes et pâtisseries faites maison avec passion" />
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://fatimacakes.vercel.app{$page.url.pathname}" />
+	<meta property="og:title" content="Fatima Cakes | Recettes de Gâteaux" />
+	<meta property="og:description" content="Découvrez mes recettes de gâteaux, cupcakes et pâtisseries faites maison avec passion" />
+	<meta property="og:image" content="https://fatimacakes.vercel.app/og-image.svg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:alt" content="Fatima Cakes - Recettes de pâtisserie" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:site_name" content="Fatima Cakes" />
+	
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://fatimacakes.vercel.app{$page.url.pathname}" />
+	<meta name="twitter:title" content="Fatima Cakes | Recettes de Gâteaux" />
+	<meta name="twitter:description" content="Découvrez mes recettes de gâteaux, cupcakes et pâtisseries faites maison avec passion" />
+	<meta name="twitter:image" content="https://fatimacakes.vercel.app/og-image.svg" />
+	<meta name="twitter:image:alt" content="Fatima Cakes - Recettes de pâtisserie" />
 </svelte:head>
 
 <div class="min-h-screen flex flex-col" style="background: transparent;">

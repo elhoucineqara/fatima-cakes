@@ -1,0 +1,62 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+			<stop offset="0%" style="stop-color:#FFF8E7;stop-opacity:1" />
+			<stop offset="50%" style="stop-color:#FFF4D6;stop-opacity:1" />
+			<stop offset="100%" style="stop-color:#FFE8B3;stop-opacity:1" />
+		</linearGradient>
+		<linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+			<stop offset="50%" style="stop-color:#C17A1F;stop-opacity:1" />
+			<stop offset="100%" style="stop-color:#D4A574;stop-opacity:1" />
+		</linearGradient>
+	</defs>
+	
+	<!-- Background -->
+	<rect width="1200" height="630" fill="url(#bgGradient)"/>
+	
+	<!-- Decorative circles -->
+	<circle cx="200" cy="150" r="100" fill="#D4A574" opacity="0.1"/>
+	<circle cx="1000" cy="480" r="120" fill="#C17A1F" opacity="0.1"/>
+	<circle cx="1100" cy="200" r="80" fill="#D4A574" opacity="0.15"/>
+	
+	<!-- Logo area (centered) -->
+	<g transform="translate(600, 250)">
+		<!-- Cake illustration -->
+		<g transform="translate(-80, -60)">
+			<!-- Base layer -->
+			<rect x="40" y="120" width="160" height="40" rx="4" fill="#E8D5C4"/>
+			<!-- Middle layer -->
+			<rect x="60" y="80" width="120" height="45" rx="4" fill="#F5E6D3"/>
+			<!-- Top layer -->
+			<rect x="80" y="50" width="80" height="35" rx="4" fill="#FFF8F0"/>
+			<!-- Cream decoration -->
+			<path d="M 80 50 Q 120 35 160 50" stroke="#FFE5F1" stroke-width="3" fill="none" stroke-linecap="round"/>
+			<circle cx="100" cy="45" r="3" fill="#FFB6D9"/>
+			<circle cx="120" cy="40" r="4" fill="#FFD6E8"/>
+			<circle cx="140" cy="45" r="3" fill="#FFB6D9"/>
+			<!-- Cherry -->
+			<circle cx="120" cy="30" r="6" fill="#FF6B9D"/>
+			<path d="M 120 24 L 118 20 L 122 20 Z" fill="#C94A6B"/>
+			<!-- Candle -->
+			<rect x="118" y="10" width="4" height="15" fill="#FFD4E5"/>
+			<circle cx="120" cy="8" r="2" fill="#FFB6D9"/>
+		</g>
+	</g>
+	
+	<!-- Title -->
+	<text x="600" y="380" font-family="Georgia, serif" font-size="72" font-weight="bold" text-anchor="middle" fill="url(#titleGradient)">
+		Fatima Cakes
+	</text>
+	
+	<!-- Subtitle -->
+	<text x="600" y="440" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#8B4513" opacity="0.8">
+		Recettes de Gâteaux et Pâtisseries
+	</text>
+	
+	<!-- Tagline -->
+	<text x="600" y="500" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#8B4513" opacity="0.7">
+		Faites avec passion ❤️
+	</text>
+</svg>
+
